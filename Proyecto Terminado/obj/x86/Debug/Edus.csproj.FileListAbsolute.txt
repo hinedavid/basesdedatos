@@ -1,0 +1,53 @@
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\bin\Debug\Edus.exe
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\bin\Debug\Edus.pdb
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\obj\x86\Debug\Edus.exe
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\obj\x86\Debug\Edus.pdb
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\David\Documents\Visual Studio 2010\Projects\Edus\Edus\obj\x86\Debug\WindowsFormsApplication1.nuevaconsulta.resources
+C:\Users\David\documents\visual studio 2010\Projects\Edus\Edus\obj\x86\Debug\WindowsFormsApplication1.Examenes.resources
+C:\Users\David\documents\visual studio 2010\Projects\Edus\Edus\obj\x86\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\David\Documents\GitHub\bases\Edus\Edus\obj\x86\Debug\Edus.exe
+C:\Users\David\Documents\GitHub\bases\Edus\Edus\obj\x86\Debug\Edus.pdb
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\Edus.exe
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\Edus.pdb
+C:\Users\David\Documents\GitHub\bases\bin\Debug\Edus.exe
+C:\Users\David\Documents\GitHub\bases\bin\Debug\Edus.pdb
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.Examenes.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.nuevaconsulta.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.auditarConsultas.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.consulta.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.tratamento.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.inicio.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.Consultartratamientos.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.Consultarsubordinados.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.AgregarMedico.resources
+C:\Users\David\Documents\GitHub\bases\obj\x86\Debug\WindowsFormsApplication1.aumento.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\Edus.exe
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\Edus.pdb
+D:\Documentos\Descargas\bases-master\bin\Debug\Edus.exe
+D:\Documentos\Descargas\bases-master\bin\Debug\Edus.pdb
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\Edus.csprojResolveAssemblyReference.cache
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.AgregarMedico.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.auditarConsultas.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.aumento.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.Consultarsubordinados.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.Consultartratamientos.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.inicio.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.consulta.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.Examenes.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.tratamento.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.nuevaconsulta.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\Edus.csproj.GenerateResource.Cache
+D:\Documentos\Descargas\bases-master\obj\x86\Debug\WindowsFormsApplication1.Principal.resources
