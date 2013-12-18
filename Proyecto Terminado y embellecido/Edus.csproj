@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E80425B-B42D-4F78-8C78-E385F78E439C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>Edus</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WindowsFormsApplication1.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=2.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgregarMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarMedico.Designer.cs">
+      <DependentUpon>AgregarMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarPaciente.Designer.cs">
+      <DependentUpon>AgregarPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="auditarConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="auditarConsultas.Designer.cs">
+      <DependentUpon>auditarConsultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aumento.Designer.cs">
+      <DependentUpon>aumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="Consultarsubordinados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultarsubordinados.Designer.cs">
+      <DependentUpon>Consultarsubordinados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultartratamientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultartratamientos.Designer.cs">
+      <DependentUpon>Consultartratamientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarMedico.Designer.cs">
+      <DependentUpon>EditarMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editar_Paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar_Paciente.Designer.cs">
+      <DependentUpon>Editar_Paciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarMedico.Designer.cs">
+      <DependentUpon>EliminarMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio.Designer.cs">
+      <DependentUpon>inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consulta.Designer.cs">
+      <DependentUpon>consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medico.Designer.cs">
+      <DependentUpon>Medico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paciente.Designer.cs">
+      <DependentUpon>paciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tratamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tratamento.Designer.cs">
+      <DependentUpon>tratamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs" />
+    <Compile Include="nueva consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nueva consulta.Designer.cs">
+      <DependentUpon>nueva consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AgregarMedico.resx">
+      <DependentUpon>AgregarMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarPaciente.resx">
+      <DependentUpon>AgregarPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="auditarConsultas.resx">
+      <DependentUpon>auditarConsultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aumento.resx">
+      <DependentUpon>aumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultarsubordinados.resx">
+      <DependentUpon>Consultarsubordinados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultartratamientos.resx">
+      <DependentUpon>Consultartratamientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarMedico.resx">
+      <DependentUpon>EditarMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar_Paciente.resx">
+      <DependentUpon>Editar_Paciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarMedico.resx">
+      <DependentUpon>EliminarMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio.resx">
+      <DependentUpon>inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consulta.resx">
+      <DependentUpon>consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medico.resx">
+      <DependentUpon>Medico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.AgregarMedico.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.auditarConsultas.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.aumento.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.consulta.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.Consultarsubordinados.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.Consultartratamientos.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.Editar_Paciente.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.Examenes.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.inicio.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.nuevaconsulta.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.paciente.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.Principal.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApplication1.tratamento.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.AgregarMedico.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.auditarConsultas.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.aumento.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.consulta.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.Consultarsubordinados.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.Consultartratamientos.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.Form1.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.Form2.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.inicio.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.nuevaconsulta.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.Principal.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WindowsFormsApplication1.tratamento.resources" />
+    <EmbeddedResource Include="paciente.resx">
+      <DependentUpon>paciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tratamento.resx">
+      <DependentUpon>tratamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nueva consulta.resx">
+      <DependentUpon>nueva consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\Debug\Edus.vshost.exe.manifest" />
+    <None Include="bin\Debug\WindowsFormsApplication1.vshost.exe.manifest" />
+    <None Include="Edus.v11.suo" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Debug\Edus.csproj.GenerateResource.Cache" />
+    <None Include="obj\x86\Debug\Edus.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\x86\Debug\GenerateResource.read.1.tlog" />
+    <None Include="obj\x86\Debug\GenerateResource.write.1.tlog" />
+    <None Include="obj\x86\Debug\ResolveAssemblyReference.cache" />
+    <None Include="obj\x86\Release\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\x86\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Release\GenerateResource.read.1.tlog" />
+    <None Include="obj\x86\Release\GenerateResource.write.1.tlog" />
+    <None Include="obj\x86\Release\ResolveAssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="Resources\Chrysanthemum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Edus.exe" />
+    <Content Include="bin\Debug\Edus.pdb" />
+    <Content Include="bin\Debug\Edus.vshost.exe" />
+    <Content Include="bin\Debug\WindowsFormsApplication1.exe" />
+    <Content Include="bin\Debug\WindowsFormsApplication1.pdb" />
+    <Content Include="bin\Debug\WindowsFormsApplication1.vshost.exe" />
+    <Content Include="bin\Release\Edus.exe" />
+    <Content Include="bin\Release\Edus.pdb" />
+    <Content Include="obj\x86\Debug\Edus.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\Edus.exe" />
+    <Content Include="obj\x86\Debug\Edus.pdb" />
+    <Content Include="obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\x86\Debug\WindowsFormsApplication1.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\WindowsFormsApplication1.exe" />
+    <Content Include="obj\x86\Debug\WindowsFormsApplication1.pdb" />
+    <Content Include="obj\x86\Release\Edus.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Release\Edus.exe" />
+    <Content Include="obj\x86\Release\TempPE\Properties.Resources.Designer.cs.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
